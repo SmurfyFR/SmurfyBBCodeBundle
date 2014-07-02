@@ -1,0 +1,23 @@
+{
+    "name" : "smurfy/bbcodebundle",
+    "description" : "A simple bundle that integrates BBCode stuff like an editor, twig filters...",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Smurfy",
+        "email" : "me@smurfy.tk"
+    }],
+    "keywords" : [
+        "bbcode bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Smurfy\\BBCodeBundle" : ""
+        }
+    },
+    "target-dir" : "Smurfy/BBCodeBundle"
+}
