@@ -19,5 +19,9 @@
             "Smurfy\\BBCodeBundle" : ""
         }
     },
-    "target-dir" : "Smurfy/BBCodeBundle"
+    "target-dir" : "Smurfy/BBCodeBundle",
+    "branch-alias" : {
+            "dev-master" : "2.2-dev"
+        }
+    }
 }
