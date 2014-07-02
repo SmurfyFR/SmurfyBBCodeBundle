@@ -1,0 +1,6 @@
+services:
+    smurfy.twig.bbcode_extension:
+        class: Smurfy\BBCodeBundle\Twig\SmurfyBBCodeExtension
+        arguments: []
+        tags:
+            - { name: twig.extension }
