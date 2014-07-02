@@ -1,21 +1,5 @@
 {% block bbcode_widget %}
     {% spaceless %}
-        <link rel="stylesheet" href="{{ asset('bundles/smurfybbcode/minified/themes/default.min.css') }}" type="text/css" media="all" />
-
 		<textarea {{ block('widget_attributes') }}>{{ value }}</textarea><br />
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script type="text/javascript" src="{{ asset('bundles/smurfybbcode/minified/jquery.sceditor.bbcode.min.js') }}"></script>
-
-        <script>
-        $(function() {
-            $("textarea").sceditor({
-                plugins: "bbcode",
-                style: "{{ asset('bundles/smurfybbcode/minified/jquery.sceditor.default.min.css') }}",
-                toolbarExclude: "emoticon,cut,copy,paste,pastetext,print",
-                emoticonsEnabled: false
-            });
-        });
-        </script>
     {% endspaceless %}
 {% endblock %}
