@@ -20,6 +20,7 @@
         }
     },
     "target-dir" : "Smurfy/BBCodeBundle",
+    "extra" : {
     "branch-alias" : {
             "dev-master" : "2.2-dev"
         }
