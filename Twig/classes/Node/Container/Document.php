@@ -534,7 +534,8 @@ class Node_Container_Document extends Node_Container
 					&& substr($content, 0, 3) !== 'ftp')
 					$content = $node->root()->get_base_uri() . $content;
 
-				return "<a class=\"shadowbox\" href=\"{$content}\"><img{$attrs} src=\"{$content}\" /></a>";
+				//return "<a class=\"shadowbox\" href=\"{$content}\"><img{$attrs} src=\"{$content}\" /></a>";
+				return "<img{$attrs} src=\"{$content}\" />";
 			}, BBCode::INLINE_TAG, false, array(), array('text_node'), BBCode::AUTO_DETECT_EXCLUDE_ALL),
 			new BBCode('email', function($content, $attribs, $node)
 			{
